@@ -14,6 +14,10 @@
 		<section id="main">
 			<h1>Let the story begin...</h1>
 			<P>Momo is stupid</P>
+			<form action="post.php" method="post">
+				<input type=text required name="test" pattern="[a-z]+@[a-z]+\.[a-z]+" />
+				<input type="submit" value="Test It Out" />
+			</form>
 		</section>
 		<footer>&copy;Bewchy Productions</footer>
 	</body>
